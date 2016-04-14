@@ -113,6 +113,8 @@
     </Compile>
     <Compile Include="UserDataItem.cs" />
     <Compile Include="UserDataService.cs" />
+    <Compile Include="LocationManager.cs" />
+    <Compile Include="LocationUpdateEventArgs.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
