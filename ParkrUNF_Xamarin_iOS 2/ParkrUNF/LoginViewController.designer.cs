@@ -22,6 +22,10 @@ namespace ParkrUNF
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UITextField usernameText { get; set; }
 
+		[Action ("bypassLoginClick:")]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		partial void bypassLoginClick (UIButton sender);
+
 		[Action ("loginClick:")]
 		[GeneratedCode ("iOS Designer", "1.0")]
 		partial void loginClick (UIButton sender);

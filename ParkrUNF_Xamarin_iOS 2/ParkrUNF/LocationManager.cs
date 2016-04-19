@@ -42,6 +42,19 @@ namespace ParkrUNF
 				LocMgr.StartUpdatingLocation();
 			}
 		}
+
+		public CLLocation returnLocation () {
+			CLLocation location = LocMgr.Location;
+
+			Console.WriteLine ("Altitude: " + location.Altitude + " meters");
+			Console.WriteLine ("Longitude: " + location.Coordinate.Longitude);
+			Console.WriteLine ("Latitude: " + location.Coordinate.Latitude);
+			Console.WriteLine ("Course: " + location.Course);
+			Console.WriteLine ("Speed: " + location.Speed);
+
+			return location;
+
+		}
 	}
 }
 

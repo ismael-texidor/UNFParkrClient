@@ -115,6 +115,10 @@
     <Compile Include="UserDataService.cs" />
     <Compile Include="LocationManager.cs" />
     <Compile Include="LocationUpdateEventArgs.cs" />
+    <Compile Include="LotViewController.cs" />
+    <Compile Include="LotViewController.designer.cs">
+      <DependentUpon>LotViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
@@ -123,6 +127,7 @@
     <InterfaceDefinition Include="RegisterViewController.xib" />
     <InterfaceDefinition Include="MainViewController.xib" />
     <InterfaceDefinition Include="TestView.xib" />
+    <InterfaceDefinition Include="LotViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>

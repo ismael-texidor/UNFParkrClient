@@ -19,7 +19,7 @@ namespace ParkrUNF
 		private MobileServiceClient client;
 		private IMobileServiceSyncTable<UserDataItem> userTable;
 
-		private UserDataService ()
+		public UserDataService ()
 		{
 			CurrentPlatform.Init ();
 			SQLitePCL.CurrentPlatform.Init(); 

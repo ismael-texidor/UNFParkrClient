@@ -53,17 +53,26 @@ namespace ParkrUNF
 					mainViewController.user = userItem;
 				}
 			}
+			if (segue.Identifier == "bypassLoginSegue") 
+			{
+				var mainViewController = segue.DestinationViewController as MainViewController;
+
+				if (mainViewController != null) {
+					mainViewController.userDataService = userDataService;
+					mainViewController.user = userItem;
+				}
+			}
 		}
 		public override bool ShouldPerformSegue(string segueIdentifier, NSObject sender)
 		{
-			if (segueIdentifier == "loginSuccesfulSegue") 
-			{
+			if (segueIdentifier == "loginSuccesfulSegue") {
 				return true;
 
-			}
-			else if(segueIdentifier == "registerSegue")
-			{
+			} else if (segueIdentifier == "registerSegue") {
 
+				return true;
+			} else if (segueIdentifier == "bypassLoginSegue") 
+			{
 				return true;
 			}
 			else
@@ -134,6 +143,14 @@ namespace ParkrUNF
 				if (hashBytes [i + 16] != hash [i])
 					return false;
 			return true;
+		}
+
+		async partial void bypassLoginClick (UIButton sender)
+		{
+			var userName = "hello";
+			var user = await userDataService.QueryUserItem(userName);
+			userItem = user;
+			PerformSegue("bypassLoginSegue", sender);
 		}
 	}
 }
