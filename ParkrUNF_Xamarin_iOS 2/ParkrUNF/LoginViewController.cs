@@ -18,12 +18,15 @@ namespace ParkrUNF
 		public async override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
+
+			//TODO: add better background image. 
+			//load background Image <-- this works! 
+//			this.View.BackgroundColor = UIColor.FromPatternImage(UIImage.FromFile("Images/parking-sign.png"));
+
+
 			// Perform any additional setup after loading the view, typically from a nib.
 			userDataService = UserDataService.DefaultService;
 			await userDataService.InitializeStoreAsync ();
-
-
-			//this.View.BackgroundColor = UIColor.FromPatternImage(UIImage.FromBundle("loginBackground"));
 
 		}
 

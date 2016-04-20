@@ -18,9 +18,11 @@ namespace ParkrUNF
 		{
 			base.ViewDidLoad ();
 			// Perform any additional setup after loading the view, typically from a nib.
-			CLLocation location = Manager.returnLocation();
+			//CLLocation location = Manager.returnLocation();
 
-			CLLocation lot14 = new CLLocation (48.857, 2.351);
+			CLLocation location = new CLLocation (30.26793078, -81.51236415);
+
+			CLLocation lot14 = new CLLocation (30.26833386, -81.51331902);
 
 			var distanceToLot14 = location.DistanceFrom (lot14);
 

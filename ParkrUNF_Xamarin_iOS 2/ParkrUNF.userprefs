@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="ParkrUNF/ParkrUNF.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ParkrUNF/LoginViewController.cs">
+    <Files>
+      <File FileName="ParkrUNF/UserDataItem.cs" Line="1" Column="1" />
+      <File FileName="ParkrUNF/MainViewController.cs" Line="9" Column="42" />
+      <File FileName="ParkrUNF/LoginViewController.cs" Line="135" Column="19" />
+      <File FileName="ParkrUNF/UserDataService.cs" Line="16" Column="30" />
+      <File FileName="ParkrUNF/LoginViewController.designer.cs" Line="27" Column="26" />
+      <File FileName="ParkrUNF/Main.cs" Line="16" Column="4" />
+      <File FileName="ParkrUNF/MainViewController.designer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

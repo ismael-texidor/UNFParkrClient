@@ -142,10 +142,14 @@
     <BundleResource Include="Resources\Default-Landscape.png" />
     <BundleResource Include="Resources\Default-Portrait%402x.png" />
     <BundleResource Include="Resources\Default-Landscape%402x.png" />
+    <BundleResource Include="Images\parking-sign.png" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Contents.json" />
     <ImageAsset Include="Images.xcassets\LaunchImages.launchimage\Contents.json" />
     <ImageAsset Include="Images.xcassets\Image.imageset\Contents.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
 </Project>
