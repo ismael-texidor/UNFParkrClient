@@ -21,7 +21,7 @@ namespace ParkrUNF
 
 			//TODO: add better background image. 
 			//load background Image <-- this works! 
-//			this.View.BackgroundColor = UIColor.FromPatternImage(UIImage.FromFile("Images/parking-sign.png"));
+			//this.View.BackgroundColor = UIColor.FromPatternImage(UIImage.FromFile("Images/loginView.png"));
 
 
 			// Perform any additional setup after loading the view, typically from a nib.

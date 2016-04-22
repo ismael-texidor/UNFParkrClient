@@ -75,8 +75,8 @@ namespace ParkrUNF
 
 				// This code refreshes the entries in the list view by querying the local TodoItems table.
 				// The query excludes completed TodoItems
-				Items = await userTable
-					.Where (todoItem => todoItem.Complete == false).ToListAsync ();
+//				Items = await userTable
+//					.Where (todoItem => todoItem.Complete == false).ToListAsync ();
 
 			} catch (MobileServiceInvalidOperationException e) {
 				Console.Error.WriteLine (@"ERROR {0}", e.Message);
@@ -102,7 +102,7 @@ namespace ParkrUNF
 		public async Task CompleteItemAsync (UserDataItem item)
 		{
 			try {
-				item.Complete = true; 
+				//item.Complete = true; 
 				await userTable.UpdateAsync (item); // update todo item in the local database
 				await SyncAsync(); // send changes to the mobile service
 
@@ -159,6 +159,17 @@ namespace ParkrUNF
 				Console.Error.WriteLine (@"ERROR {0}", e.Message);
 			}
 			return null;
+		}
+
+		public async Task UpdateUserItem (UserDataItem item)
+		{
+			try {
+				await userTable.UpdateAsync (item); // update todo item in the local database
+				await SyncAsync(); // send changes to the mobile service
+
+			} catch (MobileServiceInvalidOperationException e) {
+				Console.Error.WriteLine (@"ERROR {0}", e.Message);
+			}
 		}
 	}
 }

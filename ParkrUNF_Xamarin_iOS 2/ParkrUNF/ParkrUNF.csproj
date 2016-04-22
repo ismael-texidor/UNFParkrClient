@@ -23,7 +23,7 @@
     <MtouchLink>None</MtouchLink>
     <ConsolePause>false</ConsolePause>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignKey>iPhone Developer: isma20122012@hotmail.com (Z4Z2VDPWE6)</CodesignKey>
+    <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
@@ -108,10 +108,6 @@
     <Compile Include="MainViewController.designer.cs">
       <DependentUpon>MainViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="TestView.cs" />
-    <Compile Include="TestView.designer.cs">
-      <DependentUpon>TestView.cs</DependentUpon>
-    </Compile>
     <Compile Include="UserDataItem.cs" />
     <Compile Include="UserDataService.cs" />
     <Compile Include="LocationManager.cs" />
@@ -120,6 +116,12 @@
     <Compile Include="LotViewController.designer.cs">
       <DependentUpon>LotViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="LotData.cs" />
+    <Compile Include="LotDataService.cs" />
+    <Compile Include="SettingViewController.cs" />
+    <Compile Include="SettingViewController.designer.cs">
+      <DependentUpon>SettingViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
@@ -127,8 +129,8 @@
     <InterfaceDefinition Include="LoginViewController.xib" />
     <InterfaceDefinition Include="RegisterViewController.xib" />
     <InterfaceDefinition Include="MainViewController.xib" />
-    <InterfaceDefinition Include="TestView.xib" />
     <InterfaceDefinition Include="LotViewController.xib" />
+    <InterfaceDefinition Include="SettingViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -144,6 +146,9 @@
     <BundleResource Include="Resources\Default-Portrait%402x.png" />
     <BundleResource Include="Resources\Default-Landscape%402x.png" />
     <BundleResource Include="Images\parking-sign.png" />
+    <BundleResource Include="Images\lot1.png" />
+    <BundleResource Include="Images\lot4.png" />
+    <BundleResource Include="Images\loginView.png" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Contents.json" />

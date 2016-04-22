@@ -16,11 +16,11 @@ namespace ParkrUNF
 			// iOS 8 has additional permissions requirements
 			if (UIDevice.CurrentDevice.CheckSystemVersion (8, 0)) {
 				locMgr.RequestAlwaysAuthorization (); // works in background
-				locMgr.RequestWhenInUseAuthorization (); // only in foreground
+				//locMgr.RequestWhenInUseAuthorization (); // only in foreground
 			}
 
 			if (UIDevice.CurrentDevice.CheckSystemVersion (9, 0)) {
-				locMgr.AllowsBackgroundLocationUpdates = true;
+				locMgr.AllowsBackgroundLocationUpdates = false;
 			}
 		}
 
@@ -46,11 +46,11 @@ namespace ParkrUNF
 		public CLLocation returnLocation () {
 			CLLocation location = LocMgr.Location;
 
-			Console.WriteLine ("Altitude: " + location.Altitude + " meters");
-			Console.WriteLine ("Longitude: " + location.Coordinate.Longitude);
-			Console.WriteLine ("Latitude: " + location.Coordinate.Latitude);
-			Console.WriteLine ("Course: " + location.Course);
-			Console.WriteLine ("Speed: " + location.Speed);
+//			Console.WriteLine ("Altitude: " + location.Altitude + " meters");
+//			Console.WriteLine ("Longitude: " + location.Coordinate.Longitude);
+//			Console.WriteLine ("Latitude: " + location.Coordinate.Latitude);
+//			Console.WriteLine ("Course: " + location.Course);
+//			Console.WriteLine ("Speed: " + location.Speed);
 
 			return location;
 

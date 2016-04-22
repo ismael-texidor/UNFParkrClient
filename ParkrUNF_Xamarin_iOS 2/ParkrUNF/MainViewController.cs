@@ -1,6 +1,7 @@
 ﻿using System;
 
 using UIKit;
+using Foundation;
 
 namespace ParkrUNF
 {
@@ -23,7 +24,13 @@ namespace ParkrUNF
 			base.DidReceiveMemoryWarning ();
 			// Release any cached data, images, etc that aren't in use.
 		}
+
+		partial void checkOutClick (UIButton sender)
+		{
+			checkOutText.Text = "Checked out!";
+		}
 	}
+
 }
 
 

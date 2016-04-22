@@ -16,13 +16,13 @@ namespace ParkrUNF
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel lotNumberLabel { get; set; }
+		UIImageView lotImage { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (lotNumberLabel != null) {
-				lotNumberLabel.Dispose ();
-				lotNumberLabel = null;
+			if (lotImage != null) {
+				lotImage.Dispose ();
+				lotImage = null;
 			}
 		}
 	}

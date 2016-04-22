@@ -14,8 +14,20 @@ namespace ParkrUNF
 	[Register ("MainViewController")]
 	partial class MainViewController
 	{
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UILabel checkOutText { get; set; }
+
+		[Action ("checkOutClick:")]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		partial void checkOutClick (UIButton sender);
+
 		void ReleaseDesignerOutlets ()
 		{
+			if (checkOutText != null) {
+				checkOutText.Dispose ();
+				checkOutText = null;
+			}
 		}
 	}
 }

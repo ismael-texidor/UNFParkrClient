@@ -67,7 +67,7 @@ namespace ParkrUNF
 			// has been reused and was previously greyed out
 			var label = (UILabel)cell.ViewWithTag (1);
 			label.TextColor = UIColor.Black;
-			label.Text = todoService.Items [indexPath.Row].Text;
+			//label.Text = todoService.Items [indexPath.Row].Text;
 
 			return cell;
 		}
