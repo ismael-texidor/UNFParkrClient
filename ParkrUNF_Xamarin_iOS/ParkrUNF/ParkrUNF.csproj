@@ -23,6 +23,8 @@
     <MtouchLink>None</MtouchLink>
     <ConsolePause>false</ConsolePause>
     <MtouchDebug>true</MtouchDebug>
+    <CodesignProvision>174013af-5172-4f6a-a772-ca22fd867dd1</CodesignProvision>
+    <CodesignKey>iPhone Developer: isma20122012@hotmail.com (Z4Z2VDPWE6)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>

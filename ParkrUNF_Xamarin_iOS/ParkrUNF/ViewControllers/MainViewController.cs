@@ -129,9 +129,9 @@ namespace ParkrUNF
 
 					if (lotData == null)
 					{
-						await userDataService.QueryByLotId ("lot_2");
+						lotData = await userDataService.QueryByLotId ("lot_2_1");
 					}
-
+					await updateTimeOnLotAsync(lotData, timeString);
 				checkIntoText.Text = "You've been checked into ...";
 				if (lotName == "lot14_1") 
 				{
@@ -279,6 +279,63 @@ namespace ParkrUNF
 
 			return true;
 		}
+
+		public async Task updateTimeOnLotAsync (LotData item, String timeString)
+		{
+			switch (timeString) {
+			case "T10_5":
+				++item.T10_5;
+				break;
+			case "T11":
+				++item.T11;
+				break;
+			case "T11_5":
+				++item.T11_5;
+				break;
+			case "T12":
+				++item.T12;
+				break;
+			case "T12_5":
+				++item.T12_5;
+				break;
+			case "T1":
+				++item.T1;
+				break;
+			case "T1_5":
+				++item.T1_5;
+				break;
+			case "T2":
+				++item.T2;
+				break;
+			case "T2_5":
+				++item.T2_5;
+				break;
+			case "T3":
+				++item.T3;
+				break;
+			case "T3_5":
+				++item.T3_5;
+				break;
+			case "T4":
+				++item.T4;
+				break;
+			case "T4_5":
+				++item.T4_5;
+				break;
+			case "T5":
+				++item.T5;
+				break;
+			case "T5_5":
+				++item.T5_5;
+				break;
+			case "T6":
+				++item.T6;
+				break;
+			}
+
+			await userDataService.UpdateLotItem (item);
+		}
+
 	}
 
 }

@@ -157,6 +157,19 @@ namespace ParkrUNF
 			}
 			return null;
 		}
+
+		public async Task UpdateLotItem (LotData item)
+		{
+			try {
+				await lotData.UpdateAsync (item); // update todo item in the local database
+				await SyncAsync(); // send changes to the mobile service
+
+
+
+			} catch (MobileServiceInvalidOperationException e) {
+				Console.Error.WriteLine (@"ERROR {0}", e.Message);
+			}
+		}
 	}
 }
 
