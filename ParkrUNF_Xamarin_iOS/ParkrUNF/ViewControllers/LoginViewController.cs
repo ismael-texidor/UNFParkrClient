@@ -80,7 +80,7 @@ namespace ParkrUNF
 		{
 			if (segueIdentifier == "loginSuccesfulSegue") 
 			{
-				returnLoginClickBoolAsync ();
+				returnClick ();
 				return shouldLogin;
 
 			} else if (segueIdentifier == "registerSegue") {
@@ -110,6 +110,10 @@ namespace ParkrUNF
 			loginLabel.Text = "Incorrect Username/Password combination";
 		}
 
+		private void returnClick()
+		{
+			returnLoginClickBoolAsync ();
+		}
 		private async Task returnLoginClickBoolAsync ()
 		{
 			shouldLogin = await loginClick ();

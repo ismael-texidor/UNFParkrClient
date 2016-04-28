@@ -1,15 +1,22 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="ParkrUNF/ParkrUNF.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.3" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5.9.3" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="../../../Desktop/ParkrUNF_Xamarin_iOS/ParkrUNF/Main.cs" Line="18" Column="3" />
-      <File FileName="ParkrUNF/ViewDataContollers/UserDataService.cs" Line="19" Column="3" />
-      <File FileName="ParkrUNF/ViewControllers/MainViewController.cs" Line="42" Column="30" />
-      <File FileName="ParkrUNF/Main.cs" Line="19" Column="2" />
+      <File FileName="ParkrUNF/ViewDataContollers/UserDataService.cs" Line="77" Column="38" />
+      <File FileName="ParkrUNF/ViewControllers/MainViewController.cs" Line="135" Column="1" />
+      <File FileName="ParkrUNF/Main.cs" Line="16" Column="1" />
+      <File FileName="ParkrUNF/Info.plist" />
+      <File FileName="ParkrUNF/ViewDataContollers/Users.cs" Line="25" Column="37" />
+      <File FileName="ParkrUNF/ViewControllers/LoginViewController.cs" Line="68" Column="5" />
+      <File FileName="ParkrUNF/ViewDataContollers/UserDataItem.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/n00465408/UNFParkrClient/ParkrUNF_Xamarin_iOS/ParkrUNF/ViewControllers/MainViewController.cs" line="47" column="1" />
+      <Breakpoint file="/Users/n00465408/UNFParkrClient/ParkrUNF_Xamarin_iOS/ParkrUNF/ViewControllers/MainViewController.cs" line="39" column="1" />
+      <Breakpoint file="/Users/n00465408/UNFParkrClient/ParkrUNF_Xamarin_iOS/ParkrUNF/ViewControllers/MainViewController.cs" line="130" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

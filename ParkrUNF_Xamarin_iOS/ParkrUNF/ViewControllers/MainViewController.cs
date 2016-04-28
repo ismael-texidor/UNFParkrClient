@@ -109,8 +109,8 @@ namespace ParkrUNF
 		{
 			var checkTime = CheckTime ();
 
-			//if (checkTime)
-			if (true) //for testing.
+			if (checkTime)
+			//if (true) //for testing.
 			{
 				if (user == null)
 				{
@@ -125,13 +125,13 @@ namespace ParkrUNF
 
 				var timeString = LocateTime ();
 
-				var lotData = await userDataService.QueryByLotId (lotName);
+				//var lotData = await userDataService.QueryByLotId (lotName);
 
-					if (lotData == null)
-					{
-						lotData = await userDataService.QueryByLotId ("lot_2_1");
-					}
-					await updateTimeOnLotAsync(lotData, timeString);
+					//if (lotData == null)
+					//{
+						//lotData = await userDataService.QueryByLotId ("lot_2_1");
+					//}
+					//await updateTimeOnLotAsync(lotData, timeString);
 				checkIntoText.Text = "You've been checked into ...";
 				if (lotName == "lot14_1") 
 				{

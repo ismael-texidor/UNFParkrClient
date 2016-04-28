@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/LoginViewController~ipad.nib/objects-8.0+.nib">
+      <LogicalName>LoginViewController~ipad.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/LoginViewController~ipad.nib/runtime.nib">
+      <LogicalName>LoginViewController~ipad.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/LoginViewController~iphone.nib/objects-8.0+.nib">
+      <LogicalName>LoginViewController~iphone.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/LoginViewController~iphone.nib/runtime.nib">
+      <LogicalName>LoginViewController~iphone.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/LotViewController~ipad.nib/objects-8.0+.nib">
+      <LogicalName>LotViewController~ipad.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/LotViewController~ipad.nib/runtime.nib">
+      <LogicalName>LotViewController~ipad.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/LotViewController~iphone.nib/objects-8.0+.nib">
+      <LogicalName>LotViewController~iphone.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/LotViewController~iphone.nib/runtime.nib">
+      <LogicalName>LotViewController~iphone.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainStoryboard_iPhone.storyboardc/1250-view-1255.nib">
+      <LogicalName>MainStoryboard_iPhone.storyboardc/1250-view-1255.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainStoryboard_iPhone.storyboardc/133-view-138.nib">
+      <LogicalName>MainStoryboard_iPhone.storyboardc/133-view-138.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainStoryboard_iPhone.storyboardc/18-view-23.nib">
+      <LogicalName>MainStoryboard_iPhone.storyboardc/18-view-23.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainStoryboard_iPhone.storyboardc/276-view-281.nib">
+      <LogicalName>MainStoryboard_iPhone.storyboardc/276-view-281.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainStoryboard_iPhone.storyboardc/Info.plist">
+      <LogicalName>MainStoryboard_iPhone.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainStoryboard_iPhone.storyboardc/UINavigationController-16.nib">
+      <LogicalName>MainStoryboard_iPhone.storyboardc/UINavigationController-16.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainStoryboard_iPhone.storyboardc/UIViewController-1250.nib">
+      <LogicalName>MainStoryboard_iPhone.storyboardc/UIViewController-1250.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainStoryboard_iPhone.storyboardc/UIViewController-133.nib">
+      <LogicalName>MainStoryboard_iPhone.storyboardc/UIViewController-133.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainStoryboard_iPhone.storyboardc/UIViewController-276.nib">
+      <LogicalName>MainStoryboard_iPhone.storyboardc/UIViewController-276.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainViewController~ipad.nib/objects-8.0+.nib">
+      <LogicalName>MainViewController~ipad.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainViewController~ipad.nib/runtime.nib">
+      <LogicalName>MainViewController~ipad.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainViewController~iphone.nib/objects-8.0+.nib">
+      <LogicalName>MainViewController~iphone.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/MainViewController~iphone.nib/runtime.nib">
+      <LogicalName>MainViewController~iphone.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/RegisterViewController~ipad.nib/objects-8.0+.nib">
+      <LogicalName>RegisterViewController~ipad.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/RegisterViewController~ipad.nib/runtime.nib">
+      <LogicalName>RegisterViewController~ipad.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/RegisterViewController~iphone.nib/objects-8.0+.nib">
+      <LogicalName>RegisterViewController~iphone.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/ibtool/RegisterViewController~iphone.nib/runtime.nib">
+      <LogicalName>RegisterViewController~iphone.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>

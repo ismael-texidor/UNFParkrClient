@@ -61,12 +61,11 @@ namespace ParkrUNF
 			// Uses the default conflict handler, which fails on conflict
 			// To use a different conflict handler, pass a parameter to InitializeAsync. For more details, see http://go.microsoft.com/fwlink/?LinkId=521416
 			await client.SyncContext.InitializeAsync(store, syncHandler);
-			//userTable.PurgeAsync (true);
+			//await userTable.PurgeAsync (true);
+			//await lotData.PurgeAsync(true);
+
 				
 		}
-
-
-
 		public async Task SyncAsync(bool pullData = false)
 		{
 			try
@@ -74,7 +73,8 @@ namespace ParkrUNF
 				await client.SyncContext.PushAsync();
 
 				if (pullData) {
-					await userTable.PullAsync("getUserItems", userTable.CreateQuery()); // query ID is used for incremental sync
+					await userTable.PullAsync("getUsers", userTable.CreateQuery()); // query ID is used for incremental sync
+					await lotData.PullAsync("getLots", lotData.CreateQuery());
 				}
 			}
 
